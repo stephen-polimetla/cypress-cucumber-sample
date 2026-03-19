@@ -1,0 +1,548 @@
+{
+  "app": 0,
+  "customMetadata": false,
+  "customData": {
+    "title": "Run info",
+    "data": [
+      {
+        "label": "Project",
+        "value": "Cypress Cucumber"
+      },
+      {
+        "label": "Execution Start Time",
+        "value": "2026-03-19T11:25:22.831Z"
+      },
+      {
+        "label": "Report Source",
+        "value": "AdminSuite.cucumber.json"
+      }
+    ]
+  },
+  "style": "style.css",
+  "useCDN": false,
+  "hideMetadata": false,
+  "displayReportTime": false,
+  "displayDuration": false,
+  "durationAggregation": "sum",
+  "durationColumnTitle": "Duration",
+  "browser": 1,
+  "name": "",
+  "version": "version",
+  "time": "2026-03-19T11:25:22.854Z",
+  "features": [
+    {
+      "description": "    As QA Automation I have to validate the acceptance criteria provided for the \"Admin Suite\" test suite.",
+      "keyword": "Feature",
+      "name": "Admin Suite",
+      "line": 1,
+      "id": "d213fbe7-a992-41ca-962f-22d8c211189d-admin-suite",
+      "tags": [],
+      "uri": "AdminSuite.feature",
+      "elements": [
+        {
+          "id": "admin-suite;open-a-browser-and-visit-myshop4-page-(url-provided-above).-check-the-page's-title.",
+          "keyword": "Scenario",
+          "line": 5,
+          "name": "Open a browser and visit myshop4 page (url provided above). Check the page's title.",
+          "tags": [],
+          "type": "scenario",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 6,
+              "name": "I go to Myshop4 Page",
+              "result": {
+                "status": "passed",
+                "duration": 1099000000
+              },
+              "time": "00:00:01.099"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 7,
+              "name": "I validate that the title is visible",
+              "result": {
+                "status": "failed",
+                "duration": 4683000000,
+                "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.uk-margin-remove-bottom`, but never found it.\n    at LoginPage.getValidateVisibleTitle (https://www.myshop4.com/__cypress/tests?p=cypress\\integration\\features\\AdminSuite.feature:587:42)\n    at Context.eval (https://www.myshop4.com/__cypress/tests?p=cypress\\integration\\features\\AdminSuite.feature:29:9)\n    at Context.resolveAndRunStepDefinition (https://www.myshop4.com/__cypress/tests?p=cypress\\integration\\features\\AdminSuite.feature:11276:29)\n    at Context.eval (https://www.myshop4.com/__cypress/tests?p=cypress\\integration\\features\\AdminSuite.feature:10597:35)"
+              },
+              "time": "00:00:04.683"
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 8,
+              "name": "I validate that the title is \"Bienvenido/a\"",
+              "result": {
+                "status": "skipped"
+              }
+            }
+          ],
+          "passed": 1,
+          "failed": 1,
+          "notDefined": 0,
+          "skipped": 1,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 5782000000,
+          "time": "00:00:05.782"
+        },
+        {
+          "id": "admin-suite;try-to-login-with-wrong-information.-validations-should-be-done.",
+          "keyword": "Scenario",
+          "line": 10,
+          "name": "Try to login with wrong information. Validations should be done.",
+          "tags": [],
+          "type": "scenario",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 11,
+              "name": "I go to Myshop4 Page",
+              "result": {
+                "status": "passed",
+                "duration": 779000000
+              },
+              "time": "00:00:00.779"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 12,
+              "name": "I login with \"invalid\" credentials",
+              "result": {
+                "status": "failed",
+                "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `a`, but never found it. Queried from element: <body>\n    at LoginPage.getSignInButton (https://www.myshop4.com/__cypress/tests?p=cypress\\integration\\features\\AdminSuite.feature:573:22)\n    at Context.eval (https://www.myshop4.com/__cypress/tests?p=cypress\\integration\\features\\AdminSuite.feature:47:11)"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 13,
+              "name": "i validate the wrong login message",
+              "result": {
+                "status": "skipped"
+              }
+            }
+          ],
+          "passed": 1,
+          "failed": 1,
+          "notDefined": 0,
+          "skipped": 1,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 779000000,
+          "time": "00:00:00.779"
+        },
+        {
+          "id": "admin-suite;log-in-with-the-data-provided-above",
+          "keyword": "Scenario",
+          "line": 15,
+          "name": "Log in with the data provided above",
+          "tags": [],
+          "type": "scenario",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 16,
+              "name": "I go to Myshop4 Page",
+              "result": {
+                "status": "passed",
+                "duration": 739000000
+              },
+              "time": "00:00:00.739"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 17,
+              "name": "I login with \"valid\" credentials",
+              "result": {
+                "status": "failed",
+                "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `a`, but never found it. Queried from element: <body>\n    at LoginPage.getSignInButton (https://www.myshop4.com/__cypress/tests?p=cypress\\integration\\features\\AdminSuite.feature:573:22)\n    at Context.eval (https://www.myshop4.com/__cypress/tests?p=cypress\\integration\\features\\AdminSuite.feature:47:11)"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 18,
+              "name": "i validate successfull login",
+              "result": {
+                "status": "skipped"
+              }
+            }
+          ],
+          "passed": 1,
+          "failed": 1,
+          "notDefined": 0,
+          "skipped": 1,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 739000000,
+          "time": "00:00:00.739"
+        },
+        {
+          "id": "admin-suite;categories:-add-a-new-category-and-edit-it.",
+          "keyword": "Scenario",
+          "line": 20,
+          "name": "CATEGORIES: Add a new category and Edit it.",
+          "tags": [],
+          "type": "scenario",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 21,
+              "name": "I go to Myshop4 Page",
+              "result": {
+                "status": "passed",
+                "duration": 717000000
+              },
+              "time": "00:00:00.717"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 22,
+              "name": "I login with \"valid\" credentials",
+              "result": {
+                "status": "failed",
+                "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `a`, but never found it. Queried from element: <body>\n    at LoginPage.getSignInButton (https://www.myshop4.com/__cypress/tests?p=cypress\\integration\\features\\AdminSuite.feature:573:22)\n    at Context.eval (https://www.myshop4.com/__cypress/tests?p=cypress\\integration\\features\\AdminSuite.feature:47:11)"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 23,
+              "name": "select Categories section",
+              "result": {
+                "status": "skipped"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 24,
+              "name": "click the Add button",
+              "result": {
+                "status": "skipped"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 25,
+              "name": "write \"Test automation\"",
+              "result": {
+                "status": "skipped"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 26,
+              "name": "select an image",
+              "result": {
+                "status": "skipped"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 27,
+              "name": "check Available checkbox",
+              "result": {
+                "status": "skipped"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 28,
+              "name": "select button Add",
+              "result": {
+                "status": "skipped"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 29,
+              "name": "edit the category Test Automation",
+              "result": {
+                "status": "skipped"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 30,
+              "name": "select Update button",
+              "result": {
+                "status": "skipped"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 31,
+              "name": "I validate add new category and edit it",
+              "result": {
+                "status": "skipped"
+              }
+            }
+          ],
+          "passed": 1,
+          "failed": 1,
+          "notDefined": 0,
+          "skipped": 9,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 717000000,
+          "time": "00:00:00.717"
+        },
+        {
+          "id": "admin-suite;products-(product's-category-should-be-the-one-created-in-4)",
+          "keyword": "Scenario",
+          "line": 33,
+          "name": "PRODUCTS (Product's category should be the one created in 4)",
+          "tags": [],
+          "type": "scenario",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 34,
+              "name": "I go to Myshop4 Page",
+              "result": {
+                "status": "passed",
+                "duration": 1064000000
+              },
+              "time": "00:00:01.064"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 35,
+              "name": "I login with \"valid\" credentials",
+              "result": {
+                "status": "failed",
+                "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `a`, but never found it. Queried from element: <body>\n    at LoginPage.getSignInButton (https://www.myshop4.com/__cypress/tests?p=cypress\\integration\\features\\AdminSuite.feature:573:22)\n    at Context.eval (https://www.myshop4.com/__cypress/tests?p=cypress\\integration\\features\\AdminSuite.feature:47:11)"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 36,
+              "name": "Add a product with price Unit",
+              "result": {
+                "status": "skipped"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 37,
+              "name": "Add a product with price Multiple",
+              "result": {
+                "status": "skipped"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 38,
+              "name": "Add a product with price Discount",
+              "result": {
+                "status": "skipped"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 39,
+              "name": "edit the product",
+              "result": {
+                "status": "skipped"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 40,
+              "name": "Filter the products by the category \"Test Automation\"",
+              "result": {
+                "status": "skipped"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 41,
+              "name": "I show the number of results",
+              "result": {
+                "status": "skipped"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 42,
+              "name": "Delete the product with price \"Multiple\"",
+              "result": {
+                "status": "skipped"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 43,
+              "name": "check that the Products quantity is the one expected.",
+              "result": {
+                "status": "skipped"
+              }
+            }
+          ],
+          "passed": 1,
+          "failed": 1,
+          "notDefined": 0,
+          "skipped": 8,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 1064000000,
+          "time": "00:00:01.064"
+        },
+        {
+          "id": "admin-suite;go-to-my-dashboard-and-save-the-data-into-a-file",
+          "keyword": "Scenario",
+          "line": 45,
+          "name": "Go to My Dashboard and save the data into a file",
+          "tags": [],
+          "type": "scenario",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 46,
+              "name": "I go to Myshop4 Page",
+              "result": {
+                "status": "passed",
+                "duration": 508000000
+              },
+              "time": "00:00:00.508"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 47,
+              "name": "I login with \"valid\" credentials",
+              "result": {
+                "status": "failed",
+                "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `a`, but never found it. Queried from element: <body>\n    at LoginPage.getSignInButton (https://www.myshop4.com/__cypress/tests?p=cypress\\integration\\features\\AdminSuite.feature:573:22)\n    at Context.eval (https://www.myshop4.com/__cypress/tests?p=cypress\\integration\\features\\AdminSuite.feature:47:11)"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 48,
+              "name": "click on share button on Your Catalog",
+              "result": {
+                "status": "skipped"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 49,
+              "name": "save data into a file admin-suite-catalog",
+              "result": {
+                "status": "skipped"
+              }
+            }
+          ],
+          "passed": 1,
+          "failed": 1,
+          "notDefined": 0,
+          "skipped": 2,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 508000000,
+          "time": "00:00:00.508"
+        }
+      ],
+      "metadata": {
+        "browser": {
+          "name": "chrome",
+          "version": "unknown"
+        },
+        "device": "Local test machine",
+        "platform": {
+          "name": "win32",
+          "version": "v22.18.0"
+        }
+      },
+      "scenarios": {
+        "passed": 0,
+        "failed": 6,
+        "notDefined": 0,
+        "skipped": 0,
+        "pending": 0,
+        "ambiguous": 0,
+        "passedPercentage": "0.00",
+        "failedPercentage": "100.00",
+        "notDefinedPercentage": "0.00",
+        "skippedPercentage": "0.00",
+        "pendingPercentage": "0.00",
+        "ambiguousPercentage": "0.00",
+        "total": 6
+      },
+      "duration": 9589000000,
+      "time": "00:00:09.589",
+      "isFailed": true,
+      "isAmbiguous": false,
+      "isSkipped": false,
+      "isNotdefined": false,
+      "isPending": false,
+      "app": 0,
+      "browser": 0,
+      "failed": null,
+      "totalTime": null
+    }
+  ],
+  "featureCount": {
+    "ambiguous": 0,
+    "failed": 1,
+    "passed": 0,
+    "notDefined": 0,
+    "pending": 0,
+    "skipped": 0,
+    "total": 1,
+    "ambiguousPercentage": "0.00",
+    "failedPercentage": "100.00",
+    "notDefinedPercentage": "0.00",
+    "pendingPercentage": "0.00",
+    "skippedPercentage": "0.00",
+    "passedPercentage": "0.00"
+  },
+  "reportName": "Multiple Cucumber HTML Reporter",
+  "scenarios": {
+    "failed": 6,
+    "ambiguous": 0,
+    "notDefined": 0,
+    "pending": 0,
+    "skipped": 0,
+    "passed": 0,
+    "total": 6,
+    "ambiguousPercentage": "0.00",
+    "failedPercentage": "100.00",
+    "notDefinedPercentage": "0.00",
+    "passedPercentage": "0.00",
+    "pendingPercentage": "0.00",
+    "skippedPercentage": "0.00"
+  },
+  "totalTime": 0
+}

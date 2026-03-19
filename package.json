@@ -5,7 +5,6 @@
   "scripts": {
     "test": "cypress run --spec **/AdminSuite.feature --reporter cypress-multi-reporters --reporter-options configFile=reporter-config.json",
     "interface": "cypress open"
-
   },
   "repository": {
     "type": "git",
@@ -25,6 +24,7 @@
     "cypress": "^9.7.0",
     "cypress-cucumber-preprocessor": "^4.3.1",
     "cypress-file-upload": "^5.0.8",
+    "cypress-multi-reporters": "^2.0.5",
     "eslint": "^8.20.0"
   },
   "cypress-cucumber-preprocessor": {

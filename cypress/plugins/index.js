@@ -14,6 +14,7 @@
 const path = require('path');
 const { execSync } = require('child_process');
 const cucumber = require('cypress-cucumber-preprocessor').default;
+const fs = require('fs');
 
 /**
  * @type {Cypress.PluginConfig}
@@ -27,6 +28,13 @@ module.exports = (on, config) => {
       args.push('--disable-dev-shm-usage');
     }
     return args;
+  });
+
+  on('before:run', () => {
+    const reportsDir = path.join(config.projectRoot, 'cypress', 'reports');
+    if (!fs.existsSync(reportsDir)) {
+      fs.mkdirSync(reportsDir, { recursive: true });
+    }
   });
 
   // Automatically generate the HTML report after the test run finishes

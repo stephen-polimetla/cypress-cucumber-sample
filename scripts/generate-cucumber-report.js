@@ -4,6 +4,11 @@ const path = require('path');
 // Path to the reports directory
 const reportsDir = path.join(__dirname, '..', 'cypress', 'reports');
 
+// Ensure reports directory exists
+if (!fs.existsSync(reportsDir)) {
+  fs.mkdirSync(reportsDir, { recursive: true });
+}
+
 // Find the cucumber report JSON file (could be .cucumber or .json)
 let reportPath = null;
 if (fs.existsSync(reportsDir)) {

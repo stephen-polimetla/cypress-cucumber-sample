@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="28.872" tests="6" failures="6">
+  <testsuite name="Root Suite" timestamp="2026-03-19T12:48:36" tests="0" file="cypress/integration/features/AdminSuite.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Admin Suite" timestamp="2026-03-19T12:48:36" tests="6" time="28.823" failures="6">
+    <testcase name="Admin Suite Open a browser and visit myshop4 page (url provided above). Check the page&apos;s title." time="0.000" classname="Open a browser and visit myshop4 page (url provided above). Check the page&apos;s title.">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `.uk-margin-remove-bottom`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `.uk-margin-remove-bottom`, but never found it.
+    at LoginPage.getValidateVisibleTitle (https://www.myshop4.com/__cypress/tests?p=cypress\integration\features\AdminSuite.feature:587:42)
+    at Context.eval (https://www.myshop4.com/__cypress/tests?p=cypress\integration\features\AdminSuite.feature:29:9)
+    at Context.resolveAndRunStepDefinition (https://www.myshop4.com/__cypress/tests?p=cypress\integration\features\AdminSuite.feature:11276:29)
+    at Context.eval (https://www.myshop4.com/__cypress/tests?p=cypress\integration\features\AdminSuite.feature:10597:35)]]></failure>
+    </testcase>
+    <testcase name="Admin Suite Try to login with wrong information. Validations should be done." time="0.000" classname="Try to login with wrong information. Validations should be done.">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `a`, but never found it. Queried from element: &lt;body&gt;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `a`, but never found it. Queried from element: <body>
+    at LoginPage.getSignInButton (https://www.myshop4.com/__cypress/tests?p=cypress\integration\features\AdminSuite.feature:573:22)
+    at Context.eval (https://www.myshop4.com/__cypress/tests?p=cypress\integration\features\AdminSuite.feature:47:11)]]></failure>
+    </testcase>
+    <testcase name="Admin Suite Log in with the data provided above" time="0.000" classname="Log in with the data provided above">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `a`, but never found it. Queried from element: &lt;body&gt;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `a`, but never found it. Queried from element: <body>
+    at LoginPage.getSignInButton (https://www.myshop4.com/__cypress/tests?p=cypress\integration\features\AdminSuite.feature:573:22)
+    at Context.eval (https://www.myshop4.com/__cypress/tests?p=cypress\integration\features\AdminSuite.feature:47:11)]]></failure>
+    </testcase>
+    <testcase name="Admin Suite CATEGORIES: Add a new category and Edit it." time="0.000" classname="CATEGORIES: Add a new category and Edit it.">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `a`, but never found it. Queried from element: &lt;body&gt;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `a`, but never found it. Queried from element: <body>
+    at LoginPage.getSignInButton (https://www.myshop4.com/__cypress/tests?p=cypress\integration\features\AdminSuite.feature:573:22)
+    at Context.eval (https://www.myshop4.com/__cypress/tests?p=cypress\integration\features\AdminSuite.feature:47:11)]]></failure>
+    </testcase>
+    <testcase name="Admin Suite PRODUCTS (Product&apos;s category should be the one created in 4)" time="0.000" classname="PRODUCTS (Product&apos;s category should be the one created in 4)">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `a`, but never found it. Queried from element: &lt;body&gt;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `a`, but never found it. Queried from element: <body>
+    at LoginPage.getSignInButton (https://www.myshop4.com/__cypress/tests?p=cypress\integration\features\AdminSuite.feature:573:22)
+    at Context.eval (https://www.myshop4.com/__cypress/tests?p=cypress\integration\features\AdminSuite.feature:47:11)]]></failure>
+    </testcase>
+    <testcase name="Admin Suite Go to My Dashboard and save the data into a file" time="0.000" classname="Go to My Dashboard and save the data into a file">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `a`, but never found it. Queried from element: &lt;body&gt;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `a`, but never found it. Queried from element: <body>
+    at LoginPage.getSignInButton (https://www.myshop4.com/__cypress/tests?p=cypress\integration\features\AdminSuite.feature:573:22)
+    at Context.eval (https://www.myshop4.com/__cypress/tests?p=cypress\integration\features\AdminSuite.feature:47:11)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,8 +1,5 @@
 {
-  "reporterEnabled": "cucumber-json,mocha-junit-reporter",
-  "cucumberJsonReporterOptions": {
-    "output": "cypress/reports/cucumber-report.json"
-  },
+  "reporterEnabled": "mocha-junit-reporter",
   "mochaJunitReporterReporterOptions": {
     "mochaFile": "cypress/reports/junit.xml"
   }

@@ -10,7 +10,7 @@
       },
       {
         "label": "Execution Start Time",
-        "value": "2026-03-19T11:25:22.831Z"
+        "value": "2026-03-19T12:27:52.833Z"
       },
       {
         "label": "Report Source",
@@ -28,14 +28,14 @@
   "browser": 1,
   "name": "",
   "version": "version",
-  "time": "2026-03-19T11:25:22.854Z",
+  "time": "2026-03-19T12:27:52.852Z",
   "features": [
     {
       "description": "    As QA Automation I have to validate the acceptance criteria provided for the \"Admin Suite\" test suite.",
       "keyword": "Feature",
       "name": "Admin Suite",
       "line": 1,
-      "id": "d213fbe7-a992-41ca-962f-22d8c211189d-admin-suite",
+      "id": "1140168e-936b-43e2-b805-5d795d59472a-admin-suite",
       "tags": [],
       "uri": "AdminSuite.feature",
       "elements": [
@@ -54,9 +54,9 @@
               "name": "I go to Myshop4 Page",
               "result": {
                 "status": "passed",
-                "duration": 1099000000
+                "duration": 734000000
               },
-              "time": "00:00:01.099"
+              "time": "00:00:00.734"
             },
             {
               "arguments": [],
@@ -65,10 +65,10 @@
               "name": "I validate that the title is visible",
               "result": {
                 "status": "failed",
-                "duration": 4683000000,
+                "duration": 4407000000,
                 "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.uk-margin-remove-bottom`, but never found it.\n    at LoginPage.getValidateVisibleTitle (https://www.myshop4.com/__cypress/tests?p=cypress\\integration\\features\\AdminSuite.feature:587:42)\n    at Context.eval (https://www.myshop4.com/__cypress/tests?p=cypress\\integration\\features\\AdminSuite.feature:29:9)\n    at Context.resolveAndRunStepDefinition (https://www.myshop4.com/__cypress/tests?p=cypress\\integration\\features\\AdminSuite.feature:11276:29)\n    at Context.eval (https://www.myshop4.com/__cypress/tests?p=cypress\\integration\\features\\AdminSuite.feature:10597:35)"
               },
-              "time": "00:00:04.683"
+              "time": "00:00:04.407"
             },
             {
               "arguments": [],
@@ -86,8 +86,8 @@
           "skipped": 1,
           "pending": 0,
           "ambiguous": 0,
-          "duration": 5782000000,
-          "time": "00:00:05.782"
+          "duration": 5141000000,
+          "time": "00:00:05.141"
         },
         {
           "id": "admin-suite;try-to-login-with-wrong-information.-validations-should-be-done.",
@@ -104,9 +104,9 @@
               "name": "I go to Myshop4 Page",
               "result": {
                 "status": "passed",
-                "duration": 779000000
+                "duration": 487000000
               },
-              "time": "00:00:00.779"
+              "time": "00:00:00.487"
             },
             {
               "arguments": [],
@@ -134,8 +134,8 @@
           "skipped": 1,
           "pending": 0,
           "ambiguous": 0,
-          "duration": 779000000,
-          "time": "00:00:00.779"
+          "duration": 487000000,
+          "time": "00:00:00.487"
         },
         {
           "id": "admin-suite;log-in-with-the-data-provided-above",
@@ -152,9 +152,9 @@
               "name": "I go to Myshop4 Page",
               "result": {
                 "status": "passed",
-                "duration": 739000000
+                "duration": 416000000
               },
-              "time": "00:00:00.739"
+              "time": "00:00:00.416"
             },
             {
               "arguments": [],
@@ -182,8 +182,8 @@
           "skipped": 1,
           "pending": 0,
           "ambiguous": 0,
-          "duration": 739000000,
-          "time": "00:00:00.739"
+          "duration": 416000000,
+          "time": "00:00:00.416"
         },
         {
           "id": "admin-suite;categories:-add-a-new-category-and-edit-it.",
@@ -200,9 +200,9 @@
               "name": "I go to Myshop4 Page",
               "result": {
                 "status": "passed",
-                "duration": 717000000
+                "duration": 410000000
               },
-              "time": "00:00:00.717"
+              "time": "00:00:00.410"
             },
             {
               "arguments": [],
@@ -211,8 +211,10 @@
               "name": "I login with \"valid\" credentials",
               "result": {
                 "status": "failed",
+                "duration": 1000000,
                 "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `a`, but never found it. Queried from element: <body>\n    at LoginPage.getSignInButton (https://www.myshop4.com/__cypress/tests?p=cypress\\integration\\features\\AdminSuite.feature:573:22)\n    at Context.eval (https://www.myshop4.com/__cypress/tests?p=cypress\\integration\\features\\AdminSuite.feature:47:11)"
-              }
+              },
+              "time": "00:00:00.001"
             },
             {
               "arguments": [],
@@ -302,8 +304,8 @@
           "skipped": 9,
           "pending": 0,
           "ambiguous": 0,
-          "duration": 717000000,
-          "time": "00:00:00.717"
+          "duration": 411000000,
+          "time": "00:00:00.411"
         },
         {
           "id": "admin-suite;products-(product's-category-should-be-the-one-created-in-4)",
@@ -320,9 +322,9 @@
               "name": "I go to Myshop4 Page",
               "result": {
                 "status": "passed",
-                "duration": 1064000000
+                "duration": 406000000
               },
-              "time": "00:00:01.064"
+              "time": "00:00:00.406"
             },
             {
               "arguments": [],
@@ -413,8 +415,8 @@
           "skipped": 8,
           "pending": 0,
           "ambiguous": 0,
-          "duration": 1064000000,
-          "time": "00:00:01.064"
+          "duration": 406000000,
+          "time": "00:00:00.406"
         },
         {
           "id": "admin-suite;go-to-my-dashboard-and-save-the-data-into-a-file",
@@ -431,9 +433,9 @@
               "name": "I go to Myshop4 Page",
               "result": {
                 "status": "passed",
-                "duration": 508000000
+                "duration": 432000000
               },
-              "time": "00:00:00.508"
+              "time": "00:00:00.432"
             },
             {
               "arguments": [],
@@ -470,8 +472,8 @@
           "skipped": 2,
           "pending": 0,
           "ambiguous": 0,
-          "duration": 508000000,
-          "time": "00:00:00.508"
+          "duration": 432000000,
+          "time": "00:00:00.432"
         }
       ],
       "metadata": {
@@ -500,8 +502,8 @@
         "ambiguousPercentage": "0.00",
         "total": 6
       },
-      "duration": 9589000000,
-      "time": "00:00:09.589",
+      "duration": 7293000000,
+      "time": "00:00:07.293",
       "isFailed": true,
       "isAmbiguous": false,
       "isSkipped": false,

@@ -1,0 +1,81 @@
+﻿[
+
+{"name":"cucumber-json-merge","keywords":["cucumber","reports"],"version":"0.0.8","description":"NodeJS CLI for merging Cucumber JSON test results","sanitized_name":"cucumber-json-merge","publisher":{"email":"sergio.freire@gmail.com","username":"bitcoder"},"maintainers":[{"email":"sergio.freire@gmail.com","username":"bitcoder"}],"license":"Apache-2.0","date":"2022-04-19T10:09:29.729Z","links":{"homepage":"https://github.com/bitcoder/cucumber-json-merge#readme","repository":"git+https://github.com/bitcoder/cucumber-json-merge.git","bugs":"https://github.com/bitcoder/cucumber-json-merge/issues","npm":"https://www.npmjs.com/package/cucumber-json-merge"}}
+
+,
+
+{"name":"@cucumber/cucumber-json-converter","keywords":["cucumber","steps","regexp","regex"],"version":"0.1.0","description":"Validates and converts Cucumber JSON for different Cucumber implementations and versions","sanitized_name":"@cucumber/cucumber-json-converter","publisher":{"email":"cukebot@cucumber.io","username":"cukebot"},"maintainers":[{"email":"cukebot@cucumber.io","username":"cukebot"}],"license":"MIT","date":"2024-04-09T09:57:09.409Z","links":{"homepage":"https://github.com/cucumber/cucumber-json-converter#readme","repository":"git://github.com/cucumber/cucumber-json-converter.git","bugs":"https://github.com/cucumber/cucumber-json-converter/issues","npm":"https://www.npmjs.com/package/@cucumber/cucumber-json-converter"}}
+
+,
+
+{"name":"testcafe-reporter-cucumber-json","keywords":["testcafe","reporter","plugin","json","cucumber"],"version":"6.3.0","description":"Cucumber JSON TestCafe reporter plugin.","sanitized_name":"testcafe-reporter-cucumber-json","publisher":{"email":"henri.dorgeval@outlook.fr","username":"hdorgeval"},"maintainers":[{"email":"henri.dorgeval@outlook.fr","username":"hdorgeval"}],"license":"MIT","date":"2021-07-21T20:16:13.206Z","links":{"homepage":"https://github.com/hdorgeval/testcafe-reporter-cucumber-json#readme","repository":"git+https://github.com/hdorgeval/testcafe-reporter-cucumber-json.git","bugs":"https://github.com/hdorgeval/testcafe-reporter-cucumber-json/issues","npm":"https://www.npmjs.com/package/testcafe-reporter-cucumber-json"}}
+
+,
+
+{"name":"@deepakvishwakarma/cucumber-json-formatter","keywords":["cucumber","cypress","testing"],"version":"0.0.3","description":"This module is wrapper around [json-formatter](https://github.com/cucumber/json-formatter). This module includes latest binary of `cucumber/json-formatter(v19.0.0)` for linux, mac and windows system.","sanitized_name":"@deepakvishwakarma/cucumber-json-formatter","publisher":{"email":"deepak.m.shrma@gmail.com","username":"deepakvishwakarma"},"maintainers":[{"email":"deepak.m.shrma@gmail.com","username":"deepakvishwakarma"}],"license":"MIT","date":"2022-10-29T12:37:01.834Z","links":{"homepage":"https://github.com/deepakshrma","repository":"git+https://github.com/deepakshrma/cucumber-json-formatter.git","bugs":"https://github.com/deepakshrma/cucumber-json-formatter/issues","npm":"https://www.npmjs.com/package/@deepakvishwakarma/cucumber-json-formatter"}}
+
+,
+
+{"name":"cucumber-html-report","keywords":["cucumber","json2html","report"],"version":"0.6.5","description":"Convert cucumber json reports to a pretty html report.","sanitized_name":"cucumber-html-report","publisher":{"email":"peter@leinonen.se","username":"leinonen"},"maintainers":[{"email":"peter@leinonen.se","username":"leinonen"}],"license":"MIT","date":"2018-04-02T21:55:11.167Z","links":{"homepage":"https://github.com/leinonen/cucumber-html-report","repository":"git://github.com/leinonen/cucumber-html-report.git","bugs":"https://github.com/leinonen/cucumber-html-report/issues","npm":"https://www.npmjs.com/package/cucumber-html-report"}}
+
+,
+
+{"name":"testcafe-reporter-cucumber-json_v1.6","keywords":["testcafe","reporter","plugin","json","cucumber"],"version":"6.0.0","description":"Cucumber JSON TestCafe reporter plugin.","sanitized_name":"testcafe-reporter-cucumber-json_v1-6","publisher":{"email":"doemobileauto@gmail.com","username":"doemobileauto"},"maintainers":[{"email":"doemobileauto@gmail.com","username":"doemobileauto"}],"license":"MIT","date":"2023-06-02T10:36:36.237Z","links":{"homepage":"https://github.com/aprabh001c/testcafe-reporter-cucumber-json#readme","repository":"git+https://github.com/aprabh001c/testcafe-reporter-cucumber-json.git","bugs":"https://github.com/aprabh001c/testcafe-reporter-cucumber-json/issues","npm":"https://www.npmjs.com/package/testcafe-reporter-cucumber-json_v1.6"}}
+
+,
+
+{"name":"testcafe-reporter-cucumber-json-gherkin-testcafe","keywords":["gherkin","testcafe","reporter","plugin","json","cucumber"],"version":"1.1.0","description":"Cucumber JSON TestCafe reporter plugin for gherkin-testcafe steps.","sanitized_name":"testcafe-reporter-cucumber-json-gherkin-testcafe","publisher":{"email":"kmroz@configit.com","username":"kmroz"},"maintainers":[{"email":"kmroz@configit.com","username":"kmroz"}],"license":"MIT","date":"2024-01-29T14:22:35.813Z","links":{"homepage":"https://github.com/kmrozConfigit/testcafe-reporter-cucumber-json#readme","repository":"git+https://github.com/kmrozConfigit/testcafe-reporter-cucumber-json.git","bugs":"https://github.com/kmrozConfigit/testcafe-reporter-cucumber-json/issues","npm":"https://www.npmjs.com/package/testcafe-reporter-cucumber-json-gherkin-testcafe"}}
+
+,
+
+{"name":"cucumber-to-html","keywords":["cucumber","html","cucumber-to-html","html report","json to html"],"version":"1.0.3","description":"Convert Cucumber JSON reports to HTML","sanitized_name":"cucumber-to-html","publisher":{"email":"amjadsaleem@gmail.com","username":"hunzai"},"maintainers":[{"email":"amjadsaleem@gmail.com","username":"hunzai"}],"license":"MIT","date":"2022-04-25T11:17:42.934Z","links":{"homepage":"https://github.com/blue-ibex-labs/cucumber-html-reporter#readme","repository":"git+https://github.com/blue-ibex-labs/cucumber-html-reporter.git","bugs":"https://github.com/blue-ibex-labs/cucumber-html-reporter/issues","npm":"https://www.npmjs.com/package/cucumber-to-html"}}
+
+,
+
+{"name":"testcafe-reporter-cucumber-json-gherkin","keywords":["testcafe","reporter","plugin","json","cucumber"],"version":"1.0.1","description":"Cucumber JSON TestCafe reporter plugin.","sanitized_name":"testcafe-reporter-cucumber-json-gherkin","publisher":{"email":"secillcett@gmail.com","username":"secilc"},"maintainers":[{"email":"secillcett@gmail.com","username":"secilc"}],"license":"MIT","date":"2024-05-31T15:01:55.894Z","links":{"homepage":"https://github.com/secilc/testcafe-reporter-cucumber-json#readme","repository":"git+https://github.com/secilc/testcafe-reporter-cucumber-json.git","bugs":"https://github.com/secilc/testcafe-reporter-cucumber-json/issues","npm":"https://www.npmjs.com/package/testcafe-reporter-cucumber-json-gherkin"}}
+
+,
+
+{"name":"cucumber-json-report-formatter","keywords":["cucumber","formatter","report","bdd","automation"],"version":"0.1.4","description":"Cucumber report formatter for @badeball/cypress-cucumber-preprocessor report","sanitized_name":"cucumber-json-report-formatter","publisher":{"email":"vitalii.stas.rymar@gmail.com","username":"vitalii.rymar"},"maintainers":[{"email":"vitalii.stas.rymar@gmail.com","username":"vitalii.rymar"}],"license":"MIT","date":"2022-11-11T16:41:22.811Z","links":{"homepage":"https://github.com/Vitalizzzer/cucumber-json-report-formatter/#readme","repository":"git+https://github.com/Vitalizzzer/cucumber-json-report-formatter.git","bugs":"https://github.com/Vitalizzzer/cucumber-json-report-formatter/issues","npm":"https://www.npmjs.com/package/cucumber-json-report-formatter"}}
+
+,
+
+{"name":"@cucumber/json-schema","keywords":[],"version":"0.2.3","description":"JSON schema for the (legacy) Cucumber JSON format, along with implementation-specific variants from cucumber-jvm etc.","sanitized_name":"@cucumber/json-schema","publisher":{"email":"cukebot@cucumber.io","username":"cukebot"},"maintainers":[{"email":"cukebot@cucumber.io","username":"cukebot"}],"license":"MIT","date":"2025-09-09T15:07:20.260Z","links":{"npm":"https://www.npmjs.com/package/@cucumber/json-schema"}}
+
+,
+
+{"name":"cucumber-json-2-pdf","keywords":["cucumber","report","pdf","json","bdd"],"version":"1.0.27","description":"Welcome to the `cucumber-json-2-pdf` project!","sanitized_name":"cucumber-json-2-pdf","publisher":{"email":"dedezanol9@gmail.com","username":"deovan"},"maintainers":[{"email":"dedezanol9@gmail.com","username":"deovan"}],"license":"ISC","date":"2025-09-29T14:39:08.830Z","links":{"homepage":"https://bitbucket.org/deovan/cucumber-json-2-pdf#readme","repository":"git+ssh://git@bitbucket.org/deovan/cucumber-json-2-pdf.git","bugs":"https://bitbucket.org/deovan/cucumber-json-2-pdf/issues","npm":"https://www.npmjs.com/package/cucumber-json-2-pdf"}}
+
+,
+
+{"name":"codeceptjs-cucumber-json-reporter","keywords":["codeceptjs","cucumber","reporter"],"version":"1.0.14","description":"CodeceptJS plugin to generate a cucumberjs json output","sanitized_name":"codeceptjs-cucumber-json-reporter","publisher":{"email":"kamilorder@gmail.com","username":"kamiltry"},"maintainers":[{"email":"kamilorder@gmail.com","username":"kamiltry"}],"license":"ISC","date":"2023-06-08T02:36:02.127Z","links":{"homepage":"https://github.com/ktryniszewski-mdsol/codeceptjs-cucumber-json-reporter#readme","repository":"git+https://github.com/ktryniszewski-mdsol/codeceptjs-cucumber-json-reporter.git","bugs":"https://github.com/ktryniszewski-mdsol/codeceptjs-cucumber-json-reporter/issues","npm":"https://www.npmjs.com/package/codeceptjs-cucumber-json-reporter"}}
+
+,
+
+{"name":"executable-stories-formatters","keywords":["executable-stories","bdd","testing","documentation","cucumber","html","markdown","junit","report","formatter"],"version":"0.7.0","description":"Cucumber-compatible report formats (HTML, Markdown, JUnit XML, Cucumber JSON) for executable-stories test results.","sanitized_name":"executable-stories-formatters","publisher":{"email":"npm-oidc-no-reply@github.com","trustedPublisher":{"oidcConfigId":"oidc:fca991d7-84c0-4d1a-a1f9-624ba5d73234","id":"github"},"username":"GitHub Actions"},"maintainers":[{"email":"jag.reehal@gmail.com","username":"jagreehal"}],"license":"MIT","date":"2026-03-15T11:34:13.844Z","links":{"homepage":"https://github.com/jagreehal/executable-stories#readme","repository":"git+https://github.com/jagreehal/executable-stories.git","bugs":"https://github.com/jagreehal/executable-stories/issues","npm":"https://www.npmjs.com/package/executable-stories-formatters"}}
+
+,
+
+{"name":"@cucumber/messages","keywords":[],"version":"32.2.0","description":"JSON schema-based messages for Cucumber's inter-process communication","sanitized_name":"@cucumber/messages","publisher":{"email":"npm-oidc-no-reply@github.com","actor":{"name":"cukebot","type":"user","email":"cukebot@cucumber.io"},"trustedPublisher":{"oidcConfigId":"oidc:b58d94dc-51ba-4fe1-934e-a3181efab133","id":"github"},"username":"GitHub Actions"},"maintainers":[{"email":"cukebot@cucumber.io","username":"cukebot"}],"license":"MIT","date":"2026-03-01T13:51:59.000Z","links":{"homepage":"https://github.com/cucumber/messages#readme","repository":"git://github.com/cucumber/messages.git","bugs":"https://github.com/cucumber/messages/issues","npm":"https://www.npmjs.com/package/@cucumber/messages"}}
+
+,
+
+{"name":"cucumber-json-merge-multiworker","keywords":["cucumber","reports"],"version":"1.0.9","description":"NodeJS CLI for merging Cucumber JSON test results (multi-worker)","sanitized_name":"cucumber-json-merge-multiworker","publisher":{"email":"mats.ljunggren@boozang.com","username":"boozang"},"maintainers":[{"email":"mats.ljunggren@boozang.com","username":"boozang"}],"license":"Apache-2.0","date":"2023-12-08T15:02:09.892Z","links":{"homepage":"https://github.com/ljunggren/cucumber-json-merge-multiworker#readme","repository":"git+https://github.com/ljunggren/cucumber-json-merge-multiworker.git","bugs":"https://github.com/ljunggren/cucumber-json-merge-multiworker/issues","npm":"https://www.npmjs.com/package/cucumber-json-merge-multiworker"}}
+
+,
+
+{"name":"cucumber-html-reporter","keywords":["cucumber","html","cucumber-html-reporter","html report","json to html"],"version":"7.2.0","description":"Generates Cucumber HTML reports in three different themes","sanitized_name":"cucumber-html-reporter","publisher":{"email":"g.kushang@gmail.com","username":"kushang"},"maintainers":[{"email":"g.kushang@gmail.com","username":"kushang"}],"license":"MIT","date":"2024-10-01T12:39:25.762Z","links":{"homepage":"https://github.com/gkushang/cucumber-html-reporter#readme","repository":"git+https://github.com/gkushang/cucumber-html-reporter.git","bugs":"https://github.com/gkushang/cucumber-html-reporter/issues","npm":"https://www.npmjs.com/package/cucumber-html-reporter"}}
+
+,
+
+{"name":"@opentelemetry/instrumentation-cucumber","keywords":["cucumber","instrumentation","nodejs","opentelemetry","profiling","tracing"],"version":"0.29.0","description":"OpenTelemetry instrumentation for `@cucumber/cucumber` automated tests runner","sanitized_name":"@opentelemetry/instrumentation-cucumber","publisher":{"email":"npm-oidc-no-reply@github.com","actor":{"name":"dyladan","type":"user","email":"dyladan@gmail.com"},"trustedPublisher":{"oidcConfigId":"oidc:a2e82990-5557-4260-adb9-6cd401737b78","id":"github"},"username":"GitHub Actions"},"maintainers":[{"email":"dyladan@gmail.com","username":"dyladan"},{"email":"marc.pichler@dynatrace.com","username":"pichlermarc"},{"email":"npmjs-account@opentelemetry.io","username":"npmjs-account"},{"email":"trentm@gmail.com","username":"trentm"}],"license":"Apache-2.0","date":"2026-03-04T17:11:19.977Z","links":{"homepage":"https://github.com/open-telemetry/opentelemetry-js-contrib/tree/main/packages/instrumentation-cucumber#readme","repository":"git+https://github.com/open-telemetry/opentelemetry-js-contrib.git","bugs":"https://github.com/open-telemetry/opentelemetry-js-contrib/issues","npm":"https://www.npmjs.com/package/@opentelemetry/instrumentation-cucumber"}}
+
+,
+
+{"name":"@cucumber/cucumber","keywords":["testing","bdd","cucumber","gherkin","tests"],"version":"12.7.0","description":"The official JavaScript implementation of Cucumber.","sanitized_name":"@cucumber/cucumber","publisher":{"email":"npm-oidc-no-reply@github.com","trustedPublisher":{"oidcConfigId":"oidc:8039a5d0-fe7c-4319-9a9b-54d5c5850d96","id":"github"},"username":"GitHub Actions"},"maintainers":[{"email":"cukebot@cucumber.io","username":"cukebot"}],"license":"MIT","date":"2026-02-25T08:21:13.044Z","links":{"homepage":"https://github.com/cucumber/cucumber-js","repository":"git://github.com/cucumber/cucumber-js.git","bugs":"https://github.com/cucumber/cucumber-js/issues","npm":"https://www.npmjs.com/package/@cucumber/cucumber"}}
+
+,
+
+{"name":"multiple-cucumber-html-reporter","keywords":["cucumber","html","test report","multiple-cucumber-html-reporter","html report","json to html"],"version":"3.10.0","description":"Generate beautiful Cucumber.js reports for multiple instances (browsers / devices)","sanitized_name":"multiple-cucumber-html-reporter","publisher":{"email":"npm-oidc-no-reply@github.com","trustedPublisher":{"oidcConfigId":"oidc:d48668b6-0754-46df-bd5d-4025312402ef","id":"github"},"username":"GitHub Actions"},"maintainers":[{"email":"wasbhamla2005@gmail.com","username":"wasiqb"}],"license":"MIT","date":"2026-02-12T06:24:03.822Z","links":{"homepage":"https://github.com/WasiqB/multiple-cucumber-html-reporter#readme","repository":"git+https://github.com/WasiqB/multiple-cucumber-html-reporter.git","bugs":"https://github.com/WasiqB/multiple-cucumber-html-reporter/issues","npm":"https://www.npmjs.com/package/multiple-cucumber-html-reporter"}}
+]
+

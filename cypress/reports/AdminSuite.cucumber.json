@@ -23,7 +23,7 @@
             "name": "I go to Myshop4 Page",
             "result": {
               "status": "passed",
-              "duration": 1099000000
+              "duration": 764000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "I validate that the title is visible",
             "result": {
               "status": "failed",
-              "duration": 4683000000,
+              "duration": 4403000000,
               "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.uk-margin-remove-bottom`, but never found it.\n    at LoginPage.getValidateVisibleTitle (https://www.myshop4.com/__cypress/tests?p=cypress\\integration\\features\\AdminSuite.feature:587:42)\n    at Context.eval (https://www.myshop4.com/__cypress/tests?p=cypress\\integration\\features\\AdminSuite.feature:29:9)\n    at Context.resolveAndRunStepDefinition (https://www.myshop4.com/__cypress/tests?p=cypress\\integration\\features\\AdminSuite.feature:11276:29)\n    at Context.eval (https://www.myshop4.com/__cypress/tests?p=cypress\\integration\\features\\AdminSuite.feature:10597:35)"
             }
           },
@@ -63,7 +63,7 @@
             "name": "I go to Myshop4 Page",
             "result": {
               "status": "passed",
-              "duration": 779000000
+              "duration": 417000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "I go to Myshop4 Page",
             "result": {
               "status": "passed",
-              "duration": 739000000
+              "duration": 372000000
             }
           },
           {
@@ -141,7 +141,7 @@
             "name": "I go to Myshop4 Page",
             "result": {
               "status": "passed",
-              "duration": 717000000
+              "duration": 362000000
             }
           },
           {
@@ -252,7 +252,7 @@
             "name": "I go to Myshop4 Page",
             "result": {
               "status": "passed",
-              "duration": 1064000000
+              "duration": 422000000
             }
           },
           {
@@ -354,7 +354,7 @@
             "name": "I go to Myshop4 Page",
             "result": {
               "status": "passed",
-              "duration": 508000000
+              "duration": 423000000
             }
           },
           {

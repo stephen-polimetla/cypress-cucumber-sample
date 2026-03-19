@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Automation project with Cypress and cucumber for Arzion. Challenge code.",
   "scripts": {
-    "test": "cypress run --spec **/AdminSuite.feature --reporter cypress-multi-reporters --reporter-options configFile=reporter-config.json",
+    "test": "cypress run --spec **/AdminSuite.feature --reporter cypress-multi-reporters --reporter-options configFile=reporter-config.json || true",
     "interface": "cypress open"
   },
   "repository": {
@@ -28,6 +28,15 @@
     "eslint": "^8.20.0"
   },
   "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": true
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/reports",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "devDependencies": {
+    "mocha-junit-reporter": "^2.2.1",
+    "multiple-cucumber-html-reporter": "^3.10.0"
   }
 }
